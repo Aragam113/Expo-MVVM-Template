@@ -1,0 +1,21 @@
+﻿{
+  "home-screen": {
+    "welcome": "Welcome to the app!",
+    "description": "This app supports multiple languages. And created with MVVM architecture for better separation of concerns, maintainability, and testability, ensuring a scalable codebase across different platforms and screen sizes."
+  },
+  "flag": "\uD83C\uDDEC\uD83C\uDDE7",
+  "explore-screen": {
+    "label": "This is just another tab",
+    "description": "Still supports localization!",
+    "info": "But this tab have no russian language, it will be replaced automatically with english"
+  },
+  "icons-screen": {
+    "label": "This is an example icon screen",
+    "description": "Here you can see how to create and use icons for all entire application",
+    "step1": "• Put an icon file to ./assets/svg-icons/",
+    "step2": "• Run command \"npm run generate:icons\"",
+    "step3": "• Import generated icon from \"@components/icons/\"",
+    "step4": "• Use this imported component with props \"size\" and \"color\" if u need",
+    "step5": "• Next u can remove used icons from \"@components/icons/\" folder"
+  }
+}

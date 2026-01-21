@@ -1,0 +1,21 @@
+{
+  "home-screen": {
+    "welcome": "¡Bienvenido a la aplicación!",
+    "description": "Esta aplicación es compatible con varios idiomas. Y está creada con la arquitectura MVVM para una mejor separación de responsabilidades, mantenibilidad y capacidad de prueba, garantizando una base de código escalable en diferentes plataformas y tamaños de pantalla."
+  },
+  "flag": "\uD83C\uDDEA\uD83C\uDDF8",
+  "explore-screen": {
+    "label": "Esta es solo otra pestaña",
+    "description": "¡También soporta localización!",
+    "info": "Pero esta pestaña no tiene idioma ruso, se reemplazará automáticamente por inglés"
+  },
+  "icons-screen": {
+    "label": "Esta es una pantalla de ejemplo de iconos",
+    "description": "Aquí puedes ver cómo crear y usar iconos para toda la aplicación",
+    "step1": "• Coloca un archivo de icono en ./assets/svg-icons/",
+    "step2": "• Ejecuta el comando \"npm run generate:icons\"",
+    "step3": "• Importa el icono generado desde \"@components/icons/\"",
+    "step4": "• Usa este componente importado con las props \"size\" y \"color\" si las necesitas",
+    "step5": "• Luego puedes eliminar los iconos usados de la carpeta \"@components/icons/\""
+  }
+}
