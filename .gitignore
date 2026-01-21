@@ -9,8 +9,12 @@ dist/
 web-build/
 expo-env.d.ts
 
+# Builds
 .android/
 .ios/
+
+# Assets trash
+./assets/svg-icons/
 
 # Native
 .kotlin/
