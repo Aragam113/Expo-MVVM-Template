@@ -1,8 +1,11 @@
 <div align="center">
-
-# 📱 React Native Expo Template
-
-### Modern, Scalable, Production-Ready
+<p align="center">
+  <a href="https://asfs-web.com">
+    <img src="./logo.svg" height="96">
+    <h3 align="center">React Native Expo Template</h3>
+  </a>
+  <p align="center">Modern, Scalable, Production-Ready</p>
+</p>
 
 [![Expo](https://img.shields.io/badge/Expo-54-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
 [![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactnative.dev/)
