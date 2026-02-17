@@ -14,7 +14,8 @@ expo-env.d.ts
 .ios/
 
 # Assets trash
-assets/svg-icons
+assets/svg-icons/*
+!assets/svg-icons/.gitkeep
 
 # Native
 .kotlin/

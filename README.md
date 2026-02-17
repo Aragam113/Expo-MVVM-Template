@@ -121,6 +121,8 @@ npm run web        # Web
 
 This template includes an **automatic SVG icon generation system**. No manual component creation needed!
 
+> ⚠️ **Important:** Only simple, lightweight icons (UI icons, action icons) should be converted to React components via this system. Complex SVGs like illustrations, maps, brand logos, and flags are better served as static assets through `<Image source={require(...)} />` or `expo-image` — this enables caching and avoids bloating the JS bundle.
+
 ### Adding New Icons
 
 <table>
