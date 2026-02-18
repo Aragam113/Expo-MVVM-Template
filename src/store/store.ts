@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { setupListeners } from '@reduxjs/toolkit/query';
 
-import { emptySplitApi } from './emptyApi';
+import { emptySplitApi } from './empty-api';
 
 /**
  * After running `npm run codegen`, import generated slices here:

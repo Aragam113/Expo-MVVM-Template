@@ -40,7 +40,7 @@ export const codegenConfig: CodegenConfig = {
   swaggerUrl,
   auth: authUser && authPass ? { username: authUser, password: authPass } : undefined,
   outputDir: process.env.CODEGEN_OUTPUT_DIR || 'src/store/api',
-  emptyApiPath: process.env.CODEGEN_EMPTY_API_PATH || 'src/store/emptyApi.ts',
+  emptyApiPath: process.env.CODEGEN_EMPTY_API_PATH || 'src/store/empty-api.ts',
   emptyApiImport: process.env.CODEGEN_EMPTY_API_IMPORT || 'emptySplitApi',
   hooks: process.env.CODEGEN_HOOKS !== 'false',
 };
