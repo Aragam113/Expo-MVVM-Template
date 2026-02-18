@@ -172,7 +172,7 @@ export default function RootLayout() {
 
   'app/(tabs)/_layout.tsx': `import { Tabs } from 'expo-router';
 
-import { ExampleIcon, ExploreIcon, HomeIcon } from '@components/icons/SvgIcons';
+import { ExampleIcon, ExploreIcon, HomeIcon } from '@components/icons/svg-icons';
 
 export default function TabLayout() {
   return (
@@ -281,7 +281,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ScrollView, Text, XStack, YStack } from 'tamagui';
 
 import '@/i18n';
-import { ExampleIcon } from '@components/icons/SvgIcons';
+import { ExampleIcon } from '@components/icons/svg-icons';
 
 export default function IconsScreen() {
   const insets = useSafeAreaInsets();
@@ -469,7 +469,7 @@ export const IconsScreenContainer = () => {
   'src/screens/icons/view.tsx': `import { ScrollView, Text, XStack, YStack } from 'tamagui';
 
 import { BaseScreenProps } from '@/screens/base-model';
-import { ExampleIcon } from '@components/icons/SvgIcons';
+import { ExampleIcon } from '@components/icons/svg-icons';
 
 export const IconsScreenView = ({ insets, t }: BaseScreenProps) => {
   return (

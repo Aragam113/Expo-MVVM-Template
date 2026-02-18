@@ -2,7 +2,7 @@
 const path = require('path');
 
 const ICONS_DIR = path.join(__dirname, '../assets/svg-icons');
-const OUTPUT_FILE = path.join(__dirname, '../src/components/icons/SvgIcons.tsx');
+const OUTPUT_FILE = path.join(__dirname, '../src/components/icons/svg-icons.tsx');
 
 const stripIconSuffix = (name) => {
   return name.replace(/Icons?$/i, '');

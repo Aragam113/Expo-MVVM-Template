@@ -89,7 +89,7 @@ npm run web        # Web
 ├── src/
 │   ├── components/
 │   │   └── icons/
-│   │       └── SvgIcons.tsx  # 🔄 Auto-generated icon components
+│   │       └── svg-icons.tsx  # 🔄 Auto-generated icon components
 │   │
 │   ├── screens/              # MVVM screen modules
 │   │   ├── base-model.ts     # Base props interface
@@ -155,7 +155,7 @@ Run the generator script:
 npm run generate:icons
 ```
 
-✅ Components auto-created in `src/components/icons/SvgIcons.tsx`
+✅ Components auto-created in `src/components/icons/svg-icons.tsx`
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ npm run generate:icons
 ### Using Icons
 
 ```tsx
-import { SearchIcon, ProfileIcon } from '@components/icons/SvgIcons';
+import { SearchIcon, ProfileIcon } from '@components/icons/svg-icons';
 
 // Basic usage
 <SearchIcon />

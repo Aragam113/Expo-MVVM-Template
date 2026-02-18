@@ -1,7 +1,7 @@
 import { ScrollView, Text, XStack, YStack } from 'tamagui';
 
 import { BaseScreenProps } from '@/screens/base-model';
-import { ExampleIcon } from '@components/icons/SvgIcons';
+import { ExampleIcon } from '@components/icons/svg-icons';
 
 export const IconsScreenView = ({ insets, t }: BaseScreenProps) => {
   return (

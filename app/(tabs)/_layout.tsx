@@ -1,6 +1,6 @@
 import { Tabs } from 'expo-router';
 
-import { ExampleIcon, ExploreIcon, HomeIcon } from '@components/icons/SvgIcons';
+import { ExampleIcon, ExploreIcon, HomeIcon } from '@components/icons/svg-icons';
 
 export default function TabLayout() {
   return (
